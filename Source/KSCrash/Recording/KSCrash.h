@@ -258,6 +258,13 @@ typedef enum
                logAllThreads:(BOOL) logAllThreads
             terminateProgram:(BOOL) terminateProgram;
 
+/** 获取所有崩溃日志信息
+ */
+- (NSArray*) allReports;
+
+/** 删除所有崩溃日志信息
+ */
+- (void) deleteAllReports;
 @end
 
 
